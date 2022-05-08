@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="container-fluid">
+    <div class="cf">
+      <div id="logo">
+        <img src="images/logo2.jpg" alt="">        
+      </div>
+      <div id="header-mail">
+        <p>EMAIL</p>
+        <p><h2>lorem@lorem.com</h1></p>
+      </div>
+      <div id="callus">
+        <p>CALL US</p>
+        <P><H2>210 123 4567</H2></P>
+      </div>      
+      <div id="signin">
+        <form>
+           <a href="">Sign In</a>
+           <input type="submit" id="regbutton" value="Register" >
+        </form>
+      </div>
+    </div>
+
+    <nav id="navbar">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="">NEWS</a></li>
+        <li><a href="">GALLERY</a></li>
+        <li><a href="">CONTACT</a></li>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="form.html">FORMS</a>
+      </li>
+        <input type="text" placeholder="Search..">
+      </ul> 
+
+        
+
+  </nav>
+  </header>
+
+
+
+  <main>    
+    <div container-fluid>
+        <img src="images/education-background.jpg" alt="snow">        
+    </div>
+
+    <div class="btn-group-vertical sidenav">
+      <button type="button" class="btn btn-primary btn-lg"><a href="form-courses.html">COURSES</a></button>
+      <button type="button" class="btn btn-primary btn-lg"><a href="form-trainer.html">TRAINERS</a></button>
+      <button type="button" class="btn btn-primary btn-lg"><a href="form-students.html">STUDENTS</a></button>
+      <button type="button" class="btn btn-primary btn-lg"><a href="form-assigment.html">ASSIGMENTS</a></button>
+  </div>
+    
+    <div class=" forms col-3" style="background-color: rgb(57, 126, 126);">
+        <H2>COURSES</H2>
+        <form>          
+
+            <div class="form-group">
+                <label for="title" class="form-label">Title</label>
+                <input type="title" id="email" class="form-control" placeholder="Title">
+            </div>
+
+            <div class="form-group">
+                <label for="stream" class="form-label">Stream</label>
+                <input type="stream" id="stream" class="form-control" placeholder="Stream">
+            </div>
+
+            <div class="form-group">
+                <label for="type" class="form-label">Type</label>
+                <input type="type" id="Type" class="form-control" placeholder="Type">
+            </div>
+            <div class="form-group">
+                <label for="strdate" class="Form-label">Start Date</label>
+                <input type="date" id="strdate" value="2021-11-27" min="2000-01-01">
+                <label for="enddate" class="Form-label">End Date</label>
+                <input type="date" id="enddate" value="2021-11-27" min="2000-01-01">
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Add</button>
+                <button type="edit" class="btn btn-warning">Edit</button>
+            </div>
+        </form>
+
+        
+    </div>
+  </main>
+
+
+
+  <footer>
+
+  </footer>
+
+  <script>
+     $('.datepicker').datepicker({
+    format: 'mm/dd/yyyy',
+    startDate: '-3d'
+});
+  </script>
+</body>
+</html>

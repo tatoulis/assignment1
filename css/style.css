@@ -1,0 +1,170 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+header {
+    
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 180px;
+}
+
+header img {
+  width: 200px;
+  height: 100px;
+}
+
+#logo {
+  width: 40%;
+  float: left;
+  padding-left: 100px;
+}
+
+#header-mail{
+  width: 20%;
+  float: left; 
+  border-right: 3px solid rgb(195, 193, 193);
+  text-align: center;
+}
+
+#header-mail p {
+  color: rgb(100, 104, 100);
+}
+#callus {
+  width: 20%;
+  float: left;
+  border-right: 3px solid rgb(195, 193, 193);
+  text-align: center;
+}
+
+#callus p {
+  color: rgb(100, 104, 100);
+}
+#signin {
+  width: 20%;
+  float: left;
+  padding-top: 40px;
+  padding-left: 100px;
+}
+#signin a {
+  padding-right: 20px;
+}
+
+#signin input[type="submit"]{
+  background-color: rgb(48, 108, 165);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+#regbutton {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#regbutton:hover {background-color: #3e8e41}
+
+#regbutton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#navbar ul {
+list-style-type: none;
+margin: 5px;
+padding: 5px;
+overflow: hidden;
+background-color: rgb(110, 192, 27) ;
+padding-left: 100px;
+}
+
+#navbar ul li {
+ float: left;
+ border-right: white 3px solid;
+}
+
+nav ul {
+  list-style: none;  
+}
+
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 80px;
+  font-weight: bold;
+}
+
+#navbar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 50px;
+  font-size: 17px;
+}
+main img {
+  width: 100%;
+}
+.main-h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+}
+
+#main-input {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.sidenav {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+
+.sidenav a {
+  color: aliceblue;
+}
+
+.forms {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.forms h2 {
+  text-align: center;
+}
